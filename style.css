@@ -78,7 +78,7 @@ img{
     /* margin-top: 12px; */
 }
 
-.age{
+.age{ 
     color: var(--Dark-gray);
     font-weight: 400;
     margin-left: 0.5rem;
@@ -112,6 +112,10 @@ h4{
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; text-align: center;
+    background:bbackground-color: var(--Dark-cyan);
+}
+
+.attribution a { color: hsl(0%, 0%, 59%); }
 
