@@ -1,0 +1,117 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;500;600;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-gray: hsla(0, 0%, 59%, 0.836);
+}
+
+body{
+    
+    font-family:'Kumbh Sans', sans-serif;
+   
+   
+}
+
+.main{
+    background: url(/images/bg-pattern-bottom.svg), no-repeat;
+    background-color: var(--Dark-cyan);
+    /* background: url(/images/bg-pattern-bottom.svg)  ; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card{
+   width: 400px;
+   height: 500px;
+   border-radius: 15px;
+   background: white;
+   line-height: 1.5rem;
+   overflow: hidden;
+}
+
+.upper{
+    height:200px;
+    /* width: 350px; */
+    background: url(/images/bg-pattern-card.svg);
+    background-size: cover;
+}
+
+.name{
+display: flex;
+justify-content: center;
+margin-top: 12px;
+}
+
+
+img{
+    border-radius: 50%;
+    border: 9px solid white;
+    width:  150px;
+    overflow: hidden;
+    margin: -120px auto 9px auto; 
+    /* padding: 30px; */
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.header{
+    display: flex;
+    /* margin-top: 12px; */
+}
+
+.age{
+    color: var(--Dark-gray);
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+h1{
+    font-size: 25px;
+    font-weight:bolder;
+    color: var(--Very-dark-desaturated-blue);
+}
+
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--Dark-gray);
+}
+h4{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--Dark-gray);
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    border-top: 1px solid rgba(150, 150, 150, 0.267);
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
